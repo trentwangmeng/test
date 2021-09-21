@@ -1,0 +1,35 @@
+devices:
+- name: RedmiWeChat
+  url: http://127.0.0.1:4723/wd/hub
+  capabilities:
+    platformName: Android
+    deviceName: 1431b9ea
+    unicodeKeyboard: True
+    platformVersion: "11"
+    appPackage: com.tencent.mm   # 微信
+    appActivity: com.tencent.mm.ui.LauncherUI
+    noReset: True
+    # systemPort: 9000
+
+- name: RedmiDouYinWiFi
+  url: http://127.0.0.1:4723/wd/hub
+  capabilities:
+    platformName: Android
+    deviceName: 192.168.2.101:1994
+    unicodeKeyboard: True
+    platformVersion: "11"
+    appPackage: com.ss.android.ugc.aweme  # 抖音
+    appActivity: com.ss.android.ugc.aweme.splash.SplashActivity
+    noReset: True
+    # systemPort: 9000
+
+- name: RedmiDouYinUSB
+  url: http://127.0.0.1:4723/wd/hub
+  capabilities:
+    platformName: Android
+    deviceName: 1431b9ea
+    unicodeKeyboard: True
+    platformVersion: "11"
+    appPackage: com.ss.android.ugc.aweme  # 抖音
+    appActivity: com.ss.android.ugc.aweme.splash.SplashActivity
+    noReset: True
